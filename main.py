@@ -91,6 +91,7 @@ def startGame(rounds: int):
       if not askIfKeepRolling():
         break
       firstRound = False
+  printEndLine()
 
 
 def printBanner():
@@ -104,6 +105,17 @@ def printBanner():
   print("Copyright 2020 Snake Eyes by Alan Tao\n")
   print("##########################################################################\n")
   return 0
+
+
+def printEndLine():
+  print("  _______      ___      .___  ___.  _______      ______   ____    ____  _______ .______       __  ")
+  print(" /  _____|    /   \     |   \/   | |   ____|    /  __  \  \   \  /   / |   ____||   _  \     |  | ")
+  print("|  |  __     /  ^  \    |  \  /  | |  |__      |  |  |  |  \   \/   /  |  |__   |  |_)  |    |  | ")
+  print("|  | |_ |   /  /_\  \   |  |\/|  | |   __|     |  |  |  |   \      /   |   __|  |      /     |  |")
+  print("|  |__| |  /  _____  \  |  |  |  | |  |____    |  `--'  |    \    /    |  |____ |  |\  \----.|__| ")
+  print(" \______| /__/     \__\ |__|  |__| |_______|    \______/      \__/     |_______|| _| `._____|(__) \n\n\n")
+
+  print("Thanks for playing Snake Eyes!!!")
 
 
 def main():
